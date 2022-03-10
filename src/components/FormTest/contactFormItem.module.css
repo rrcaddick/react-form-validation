@@ -1,0 +1,37 @@
+.inputControl {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputControl label {
+  color: #00abba;
+  font-weight: bold;
+  margin-bottom: 0.2rem;
+  margin-top: 0.8rem;
+}
+
+.inputControl input {
+  padding: 0.5rem;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #00539b;
+  margin-bottom: 0.2rem;
+  min-width: 0;
+}
+
+.inputControl span {
+  display: none;
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-align: center;
+  min-width: 0;
+}
+
+.inputControl input:invalid[touched="true"] ~ span {
+  display: block;
+  color: red;
+}
+
+.inputControl input:invalid[touched="true"] {
+  border-bottom: 1px solid red;
+}

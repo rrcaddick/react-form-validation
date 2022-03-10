@@ -1,0 +1,38 @@
+.form {
+  background-color: #fff;
+  padding: 0.5rem 2rem;
+  border-radius: 0.8rem;
+  width: 35%;
+}
+
+.form h1 {
+  color: #00539b;
+  text-align: center;
+}
+
+.form button {
+  border: none;
+  margin: 2rem 0;
+  padding: 1rem 2rem;
+  width: 100%;
+  background-color: #00539b;
+  color: #fff;
+  font-size: 1.2rem;
+  letter-spacing: 4px;
+  text-transform: capitalize;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background-color: #004888;
+}
+
+.form button:active {
+  transform: scale(0.99);
+}
+.inlineInput {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
